@@ -6,7 +6,7 @@ public class Harshad {
             sum=sum+ld;
             div=div*10;
         }
-        if(sum==n/2){
+        if(n%sum==0){//18%9==0 then harshad 10%1==0 then harshad
             System.out.print(sum+"\t\t");
             System.out.println("its harshad number");
         }
