@@ -1,9 +1,9 @@
 
 class ChessBoard {
-    public boolean squareIsWhite(String c) {
-        char []a=c.toCharArray();
+    public boolean squareIsWhite(String c) {//5662
+        char []a=c.toCharArray();//{'5','6','6','2'}
         int num=0;
-        for(char b:a){
+        for(char b:a){//5 //6 //6 //2
             num=num+b;
         }
         if(num%2==0){return false;}
